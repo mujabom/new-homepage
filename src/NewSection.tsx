@@ -1,6 +1,6 @@
 export function NewSection() {
-  return <div className="row-span-2 flex flex-col gap-10 bg-very-dark-blue p-7 md:col-start-3 md:row-start-1">
-    <h1 className="text-4xl font-extrabold text-soft-orange ">New</h1>
+  return <div className="row-span-2 flex flex-col gap-10 bg-very-dark-blue p-5 md:col-start-3 md:row-start-1">
+    <h1 className="text-5xl font-extrabold text-soft-orange ">New</h1>
     <NewSectionStory title="Hydrogen vs Electric Cars">
       Will hydrogen-fueled cars ever catch up to EVs?
     </NewSectionStory>
@@ -25,8 +25,8 @@ function NewSectionStory({
 }) {
   return (
     <section className={`flex flex-col gap-3`}>
-      <h2 className="text-xl cursor-pointer hover:text-soft-orange font-bold text-off-white">{title}</h2>
-      <p className="text-dark-grayish-blue">{children}</p>
+      <h2 className="text-2xl cursor-pointer hover:text-soft-orange font-bold text-off-white">{title}</h2>
+      <p className="text-grayish-blue">{children}</p>
     </section>
   );
 }

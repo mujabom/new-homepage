@@ -6,6 +6,7 @@
 html {
   font-family: "Inter", sans-serif;
   font-size: 15px;
+  @apply bg-off-white;
 }
 
 /* https://fonts.google.com/specimen/Inter */

@@ -27,8 +27,8 @@ function SideStory({
     <div className="mt-10 grid grid-cols-3 gap-5">
       <img src={src} />
       <div className="col-span-2 flex flex-col gap-3">
-        <h1 className="text-4xl font-bold text-grayish-blue">{number}</h1>
-        <h4 className="text-xl font-bold text-very-dark-blue">{title}</h4>
+        <h1 className="text-4xl font-bold  text-grayish-blue">{number}</h1>
+        <h4 className="text-xl font-bold cursor-pointer hover:text-soft-orange text-very-dark-blue">{title}</h4>
         <p className="text-dark-grayish-blue">{children}</p>
       </div>
     </div>

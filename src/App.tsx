@@ -7,6 +7,7 @@ import BannerMobile from "./asset/images/image-web-3-mobile.jpg";
 export default function App() {
   const isLarge = useMediaQuery("(min-width: 768px)");
   return (
+    <div className="flex w-full justify-center">
     <div className="flex flex-col gap-14 px-4 py-14 md:px-40 max-w-[90rem]">
       <Header />
       <main className="grid grid-cols-1 gap-5 md:grid-cols-3">
@@ -34,7 +35,7 @@ export default function App() {
 
         <FooterStories />
       </main>
-    </div>
+    </div></div>
   );
 }
 
